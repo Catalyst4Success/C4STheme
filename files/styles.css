@@ -88,3 +88,6 @@ html,body{
     padding-left:75%;
     position:relative;
 }
+.navbar .container{
+    width:90%;
+}

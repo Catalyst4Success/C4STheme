@@ -13,9 +13,6 @@
     <![endif]-->
   </head>
   <body>
-<div id="navbar" class="navbar navbar-default navbar-fixed-top">
-    
-        </div>
         <div class="welcome" id="welcome">
       <div class="welcome-text">
 	<div class="row">
@@ -28,6 +25,12 @@
       </div>      
     </div>
     
+    <div id="navbarfiller">
+    <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    
+        </div>
+
+    </div>
         
     <div class="our-mission">
       <center><h1>Our Mission: to inspire</h1></center>
@@ -36,10 +39,9 @@
 	  <img src="files/mission.jpg" style="width: 100%;" >
 	</div>
 	<div class="col-md-6">
-	  <p>Catalyst for Success is a registered non-profit organization that aims to promote STEM education in order to inspire a new generation of scientists. We provide chemistry magic shows consisting of many cool demonstrations that present science in a fun and engaging way. In addition, we follow up our assemblies by providing classrooms with personalized "hands on" activities where the children can try learn 'Next Generation' science standards in subjects ranging from biology to computer science. 
-	  </p>
+    <h3>Catalyst for Success is a registered non-profit organization that aims to promote STEM education in order to inspire a new generation of scientists.</h3> <p>We provide chemistry magic shows consisting of many cool demonstrations that present science in a fun and engaging way. In addition, we follow up our assemblies by providing classrooms with personalized "hands on" activities where the children can try learn 'Next Generation' science standards in subjects ranging from biology to computer science. </p>
 	  <p>
-	    Since February 2013, we have.
+      <h3>Since February 2013, we have.</h3>
 	    <ul>
 	      <li>Performed for over 17,000 students from schools in the Poway, San Diego, Chula Vista, Del Mar, Jamul, and Oceanside Districts</li> 
 	      <li>Conducted hands-on science labs with dozens of classrooms</li>
@@ -107,17 +109,16 @@
     <script>
       $(document).ready( function(){
            
-           $("#navbar").hide();
            var welctop = $("#welcome").offset().top;
            var welcbottom = welctop + $("#welcome").height();
            $(window).scroll(function(){
                  var top = $(window).scrollTop();
                  var bottom = top + $(window).height();
                  if(top > welcbottom){
-                      $("#navbar").show();
+                      $("#navbar").prop('class', 'navbar navbar-default navbar-fixed-top');
                  }
                  else{
-                      $("#navbar").hide();
+                      $("#navbar").prop('class', 'navbar navbar-default');
                  }
            });
       });

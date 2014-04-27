@@ -6,7 +6,7 @@ html,body{
     width:100%;
 }
 .welcome{
-    background-image: url("catalystmain.jpg");
+    background-image: url("catamain.jpg");
     min-height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -61,6 +61,7 @@ html,body{
     background-size: cover;
     width:100%;
     position:relative;
+    overflow:hidden;
 }
 #map-button{
     position:absolute;

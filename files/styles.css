@@ -59,6 +59,7 @@ html,body{
     background-image: url("catamap.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    width:100%;
 }
 .didyouknow{
     background-color: #FF6699;
@@ -78,4 +79,12 @@ html,body{
 }
 #navbarfiller{
     height:86px;
+}
+#latest-news-button{
+    padding-top:30px;
+    padding-right:30%;
+}
+#map-button{
+    padding-left:75%;
+    position:relative;
 }

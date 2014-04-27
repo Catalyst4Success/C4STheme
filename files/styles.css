@@ -1,0 +1,71 @@
+html{
+    min-height:100%;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+.welcome{
+    background-image: url("catalystmain.jpg");
+    height: 89%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table-cell block;
+    text-align: center;
+    overflow:hidden;
+    position:relative;
+    margin:0;
+    padding-top:0px;
+}
+.welcome h1, .welcome h2{
+    color:white;
+}
+.welcome > h2{
+
+}
+.welcome-text{
+    display: inline-block;
+    margin-top:12%;
+    height:50%;
+}
+.our-mission{
+    display: block;
+    width: 100%;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.our-mission h1{
+    color:#1E90FF;
+}
+.quote{
+    background-color: #FFA500;
+    display: block;
+    padding: 20px;
+}
+.latest-news{
+    padding: 50px;
+    background-color: #CCFF99
+}
+.map{
+    display: block;
+    background-image: url("catamap.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.didyouknow{
+    background-color: #FF6699;
+    display: block;
+    overflow:hidden;
+    height:200px;
+}
+.footer{
+    background-color: #C3E1FF;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#navbarfiller{
+    height:86px;
+}

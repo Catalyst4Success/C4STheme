@@ -2379,7 +2379,7 @@ input[type="date"].input-lg,
 input[type="time"].input-lg,
 input[type="datetime-local"].input-lg,
 input[type="month"].input-lg {
-  line-height: 46px;
+  line-height: 50px;
 }
 .form-group {
   margin-bottom: 15px;
@@ -2453,15 +2453,15 @@ select[multiple].input-sm {
   height: auto;
 }
 .input-lg {
-  height: 46px;
+  height: 50px;
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 1.33;
   border-radius: 0px;
 }
 select.input-lg {
-  height: 46px;
-  line-height: 46px;
+  height: 50px;
+  line-height: 50px;
 }
 textarea.input-lg,
 select[multiple].input-lg {
@@ -2485,9 +2485,9 @@ select[multiple].input-lg {
   text-align: center;
 }
 .input-lg + .form-control-feedback {
-  width: 46px;
-  height: 46px;
-  line-height: 46px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
 }
 .input-sm + .form-control-feedback {
   width: 30px;
@@ -2986,7 +2986,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-lg,
 .btn-group-lg > .btn {
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 1.33;
   border-radius: 0px;
 }
@@ -3372,17 +3372,17 @@ tbody.collapse.in {
 .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
-  height: 46px;
+  height: 50px;
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 1.33;
   border-radius: 0px;
 }
 select.input-group-lg > .form-control,
 select.input-group-lg > .input-group-addon,
 select.input-group-lg > .input-group-btn > .btn {
-  height: 46px;
-  line-height: 46px;
+  height: 50px;
+  line-height: 50px;
 }
 textarea.input-group-lg > .form-control,
 textarea.input-group-lg > .input-group-addon,
@@ -3449,7 +3449,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .input-group-addon.input-lg {
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 21px;
   border-radius: 0px;
 }
 .input-group-addon input[type="radio"],
@@ -3807,7 +3807,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   padding: 33px 15px;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 20px;
   height: 86px;
 }
@@ -4296,7 +4296,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination-lg > li > a,
 .pagination-lg > li > span {
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 21px;
 }
 .pagination-lg > li:first-child > a,
 .pagination-lg > li:first-child > span {

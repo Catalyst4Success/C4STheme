@@ -60,6 +60,12 @@ html,body{
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
+    position:relative;
+}
+#map-button{
+    position:absolute;
+    padding-left:70%;
+    bottom:20%;
 }
 .didyouknow{
     background-color: #FF6699;
@@ -85,10 +91,6 @@ html,body{
 #latest-news-button{
     padding-top:30px;
     padding-right:30%;
-}
-#map-button{
-    padding-left:75%;
-    position:relative;
 }
 .navbar .container{
     width:90%;

@@ -7,7 +7,7 @@ html,body{
 }
 .welcome{
     background-image: url("catalystmain.jpg");
-    height: 89%;
+    min-height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,6 +44,12 @@ html,body{
     display: block;
     padding: 20px;
 }
+.quote h1{
+    color:white;
+}
+.quote h2{
+    color:#A9A9A9
+}
 .latest-news{
     padding: 50px;
     background-color: #CCFF99
@@ -59,6 +65,10 @@ html,body{
     display: block;
     overflow:hidden;
     height:200px;
+}
+.didyouknow h1{
+    color:white;
+    padding-top:60px;
 }
 .footer{
     background-color: #C3E1FF;

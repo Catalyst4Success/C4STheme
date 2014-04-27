@@ -13,6 +13,9 @@
     <![endif]-->
   </head>
   <body>
+<div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    
+        </div>
         <div class="welcome" id="welcome">
       <div class="welcome-text">
 	<div class="row">
@@ -25,12 +28,7 @@
       </div>      
     </div>
     
-    <div id="navbarfiller">
-        <div id="navbar" class="navbar navbar-default">
-    
-        </div>
-    </div>
-
+        
     <div class="our-mission">
       <center><h1>Our Mission: to inspire</h1></center>
       <div class="row" style="padding-top: 20px; padding-bottom:20px;" >
@@ -51,7 +49,8 @@
       <center><button type="button" class="btn btn-primary">Learn More</button></center>
     </div>
     <div class="quote">
-      <p><center>"I love science! I love Jason Ge for being an amazing CEO and bringing such exciting experiments into my life!"</center></p>
+      <h1><center>"I love science! I love Jason Ge for being an amazing CEO and bringing such exciting experiments into my life!"</center></h1>
+      <h2 style="padding-left:600px;">-Vyha Do, Grade 12, Westview High School<h2>
     </div>
     <div class="latest-news">
       <div class="row" style="padding-top:30px;">
@@ -108,17 +107,17 @@
     <script>
       $(document).ready( function(){
            
-           //$("#navbar").hide();
+           $("#navbar").hide();
            var welctop = $("#welcome").offset().top;
            var welcbottom = welctop + $("#welcome").height();
            $(window).scroll(function(){
                  var top = $(window).scrollTop();
                  var bottom = top + $(window).height();
                  if(top > welcbottom){
-                      $("#navbar").prop('class', 'navbar navbar-default navbar-fixed-top');
+                      $("#navbar").show();
                  }
                  else{
-                      $("#navbar").prop('class', 'navbar navbar-default');
+                      $("#navbar").hide();
                  }
            });
       });

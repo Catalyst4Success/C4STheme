@@ -79,6 +79,8 @@ html,body{
 }
 #navbarfiller{
     height:86px;
+    width: 100%;
+    display:block;
 }
 #latest-news-button{
     padding-top:30px;
@@ -90,4 +92,13 @@ html,body{
 }
 .navbar .container{
     width:90%;
+}
+
+@media(max-width:1420px){
+    .navbar .container{
+	width:100%;
+    }
+    .navbar img{
+	height:20px;
+    }
 }

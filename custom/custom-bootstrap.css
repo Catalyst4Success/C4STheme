@@ -881,7 +881,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: Questrial;
+  font-family: PontanoSans;
   font-size: 15px;
   line-height: 1.428571429;
   color: #333333;
@@ -5991,6 +5991,12 @@ button.close {
 @font-face {
   font-family: 'Questrial';
   src: url('../bootstrap/fonts/Questrial-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PontanoSans';
+  src: url('../bootstrap/fonts/PontanoSans-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

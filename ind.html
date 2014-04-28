@@ -60,7 +60,7 @@
                     <li class="hover-active"><a href="/board.php"><i class="fa fa-flask"></i> ADVISORY BOARD</a></li>
 
                     <li class="dropdown hover-active-dropdown">
-                    <a class="dropdown-toggle" href="#navbar">
+                    <a class="dropdown-toggle" href="#">
                         <i class="fa fa-book"></i> LOCAL CHAPTERS</a>
                     <ul class="dropdown-menu">
                         <li><a href="http://wv.catalyst4success.org">Westview High School</a></li>
@@ -187,22 +187,37 @@ scrollTop: $("#"+id).offset().top},
         </script>
 
 <script>
+var width = $(window).width();
+var hoverover;
 $(document).ready( function(){
 
-        $(".hover-active-dropdown").hover(
-            function() { $(this).attr("class", "dropdown hover-active-dropdown active")},
-            function() { $(this).attr("class", "dropdown hover-active-dropdown")}
-            );
+            navbarCollapseCheck();
+            $(".hover-active-dropdown").hover(
+                function() { $(this).attr("class", "dropdown hover-active-dropdown active")},
+                function() { $(this).attr("class", "dropdown hover-active-dropdown")}
+                );
 
-        $(".hover-active").hover(
-            function() { $(this).attr("class", "hover-active active")},
-            function() { $(this).attr("class", "hover-active")}
-            );
-
-
-
-
+            $(".hover-active").hover(
+                function() { $(this).attr("class", "hover-active active")},
+                function() { $(this).attr("class", "hover-active")}
+                );
     });
+
+function navbarCollapseCheck(){
+        var width = $(window).width();
+        if(width < 767){
+           $(".dropdown-toggle").attr("data-toggle", "dropdown"); 
+        }
+        else{
+            $(".dropdown-toggle").attr("data-toggle", " "); 
+        }
+    }
+
+
+$(window).on('resize', function() {
+    navbarCollapseCheck();
+    });
+        
         </script>
 
         </body></html>

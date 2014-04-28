@@ -160,13 +160,14 @@
         <script src="./Bootswatch  Default_files/bootstrap.min.js"></script>
         <script src="./Bootswatch  Default_files/bootswatch.js"></script>
         <script>
+
 $(document).ready( function(){
         var welctop = $("#welcome").offset().top;
         var welcbottom = welctop + $("#welcome").height();
         $(window).scroll(function(){
             var top = $(window).scrollTop();
             var bottom = top + $(window).height();
-            if(top > welcbottom){
+            if(top > welcbottom || $(window).width() < 767){
             $("#navbar").prop('class', 'navbar navbar-default navbar-fixed-top');
             }
             else{
@@ -207,9 +208,11 @@ function navbarCollapseCheck(){
         var width = $(window).width();
         if(width < 767){
            $(".dropdown-toggle").attr("data-toggle", "dropdown"); 
+           $("#navbar").prop('class', 'navbar navbar-default navbar-fixed-top');
         }
         else{
             $(".dropdown-toggle").attr("data-toggle", " "); 
+            $("#navbar").prop('class', 'navbar navbar-default');
         }
     }
 

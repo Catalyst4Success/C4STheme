@@ -213,6 +213,9 @@ html,body{
         visibility:hidden;
         width:0px;
     }
+    .down-arrow {
+        visibility:hidden;
+    }
 }
 @media(max-width:767px){
     .navbar .container{

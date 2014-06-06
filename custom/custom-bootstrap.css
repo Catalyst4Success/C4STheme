@@ -3623,7 +3623,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
 }
 .nav-pills > li > a {
-  border-radius: 0px;
+  border-radius: 0;
 }
 .nav-pills > li + li {
   margin-left: 2px;
@@ -3638,7 +3638,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: none;
 }
 .nav-stacked > li + li {
-  margin-top: 2px;
+  margin-top: 0px;
   margin-left: 0;
 }
 .nav-justified {
@@ -6008,6 +6008,13 @@ button.close {
 }
 .navbar-brand {
   padding: 22.5px 15px;
+}
+.nav-stacked > li {
+  float: none;
+}
+.nav-stacked > li + li {
+  margin-top: 0px;
+  margin-left: 0;
 }
 .clearfix:before,
 .clearfix:after,

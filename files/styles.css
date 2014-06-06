@@ -92,6 +92,16 @@ html,body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.faq{
+    background-color: #FFAC59;
+    display:block;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.faq > h1{
+    color:white;
+}
 .our-programs{
     background-color:#0099CC;
     display: block;

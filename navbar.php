@@ -1,3 +1,6 @@
+<?php
+$page = $_SERVER['REQUEST_URI'];
+?>
 <div id="navbarfiller">
     <div id="navbar" class="navbar navbar-default">
         <div class="container">
@@ -15,8 +18,8 @@
             </div>
             <div class="collapse navbar-collapse" id="collapse-nav">
                 <ul style="padding-left: 10px;" class="nav navbar-nav">
-                    <li class="active"><a href="index.php"><i class="fa fa-home"></i> HOME</a></li>
-                    <li id="about" class="dropdown hover-active-dropdown">
+                    <li class="<?php if($page == '/index.php') echo 'active'; else echo 'hover-active';?>"><a href="index.php"><i class="fa fa-home"></i> HOME</a></li>
+                    <li id="about" class="dropdown <?php if($page == '/about.php' || $page == '/videos.php' || $page == '/pressrelease.php') echo 'active'; else echo 'hover-active-dropdown';?>">
                     <a class="dropdown-toggle" href="about.php">
                         <i class="fa fa-question-circle"></i> ABOUT</a>
                     <ul class="dropdown-menu">
@@ -25,10 +28,10 @@
                         <li><a href="pressrelease.php">Press Releases</a></li>
                     </ul>
                     </li>
-                    <li class="hover-active"><a href="members.php"><i class="fa fa-users"></i> OUR TEAM</a></li>
-                    <li class="hover-active"><a href="board.php"><i class="fa fa-flask"></i> ADVISORY BOARD</a></li>
+                    <li class="<?php if($page == '/members.php') echo 'active'; else echo 'hover-active';?>"><a href="members.php"><i class="fa fa-users"></i> OUR TEAM</a></li>
+                    <li class="<?php if($page == '/board.php') echo 'active'; else echo 'hover-active';?>"><a href="board.php"><i class="fa fa-flask"></i> ADVISORY BOARD</a></li>
 
-                    <li class="dropdown hover-active-dropdown">
+                    <li class="dropdown <?php if($page == '/localchapters.php') echo 'active'; else echo 'hover-active-dropdown';?>">
                     <a class="dropdown-toggle" href="localchapters.php">
                         <i class="fa fa-book"></i> LOCAL CHAPTERS</a>
                     <ul class="dropdown-menu">
@@ -36,7 +39,7 @@
                         </li>
                     </ul>
 
-                    <li class="dropdown hover-active-dropdown">
+                    <li class="dropdown <?php if($page == '/signup.php') echo 'active'; else echo 'hover-active-dropwdown';?>">
                     <a class="dropdown-toggle" href="signup.php">
                         <i class="fa fa-envelope"></i> CONTACT US</a>
                     <ul class="dropdown-menu">
@@ -46,7 +49,7 @@
                         <li><a href="signup.php#members">Prospective members</a></li></ul>
                     </li>
 
-                    <li class="hover-active"><a href="donate.php"><i class="fa fa-gift"></i> DONATE</a></li>
+                    <li class="<?php if($page == '/donate.php') echo 'active'; else echo 'hover-active';?>"><a href="donate.php"><i class="fa fa-gift"></i> DONATE</a></li>
                 </ul>
             </div>
         </div>

@@ -96,7 +96,7 @@
                     <b>Contact Us</b><br>858-610-0232<br><u>info.catalyst4success.org</u>
                 </div>
                 <div class="col-md-1">
-                    <img src="files/flask.png" width="60%">
+                    <img src="files/flask.png" width="75px">
                 </div>
             </div>
         </div>

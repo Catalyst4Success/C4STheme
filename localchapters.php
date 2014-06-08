@@ -37,9 +37,38 @@
         <div class="col-md-7" id="map" style="border:1px solid black; border-left:0px; background-color:#7DCBE5 ">
         </div>
     </div>
+   <center><p style="margin-top: 40px; margin-bottom:40px;">Can't find a chapter close to you? Contact us about booking an event or start your own chapter!</p></center>
 </div>
-<br><br><br><br><br><br><br><br>
-<div class="footer" style="position:absolute; bottom:0;">
+<div class="joinchapter">
+   <h1><center>Join a chapter!</center></h1>
+</div>
+<div class="container" style="color: #57AB21; margin-top:20px;">
+<b>My school has a chapter, how do I join?</b>
+<p>Follow the link to your chapter's website. There you can find the contact information of leaders who will be happy to welcome you to the Catalyst family.</p>
+<br>
+<b>Should I join even if science isn't my 'thing'?</b>
+<p>Yes, it doesn't take a genius. It takes a determined well rounded individual who is able to communicate effectively and respectfully. Our chapters also need artists, computer programmers, skilled writers, and graphic designers.<p>
+</div>
+<div class="orstart">
+   <h1><center>Or start a chapter!</center></h1>
+</div>
+<div class="container" style="color:#FFA319; margin-top:20px;">
+   <b>My school doesn't have a chapter, can I start one?</b>
+<p>Yes, yes you can! Starting a Catalyst chapter is a bit more involved than starting a usual club, but then, Catalyst is anything but usual!</p>
+<br>
+<b>My high school is in or near San Diego county:</b>
+<p>The first step is to contact a representative from the organization. We will visit your school to speak with your administrators about the program. If everything checks out, we will help you complete your club application forms and select and train an interim leadership team to get the chapter off to a solid start.</p>
+<br>
+<b>Anywhere else in the nation:</b>
+<p>Starting a chapter begins with completing a pre-establishment checklist. Obtain the checklist by contacting the organization.</p>
+<br>
+<b>My university is in or near San Diego county:</b>
+<p>Before establishing yourself on campus, get together a group of interested individuals and contact our organization. We will meet with you to discuss your first steps.</p>
+<br>
+<center><p>I'm inquisitive, I have more questions!</p><p>Email us at info@catalyst4success.org with your inquiry.</p></center>
+</div>
+<br>
+<div class="footer">
     <div class="row">
         <div class="col-md-4">
             <img src="files/logotransparent.png" width="25%"><br>
@@ -49,7 +78,7 @@
             <b>Contact Us</b><br>858-610-0232<br><u>info.catalyst4success.org</u>
         </div>
         <div class="col-md-1">
-            <img src="files/flask.png" width="60%">
+            <img src="files/flask.png" width="75px">
         </div>
     </div>
 </div>

@@ -141,7 +141,26 @@ html,body{
 .local-chapters > h1{
     color:white;
 }
-
+.joinchapter{
+    background-color:#57AB21;
+    display:block;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.joinchapter > h1{
+    color:white;
+}
+.orstart{
+    background-color:#FFA319;
+    display:block;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.orstart > h1{
+    color:white;
+}
 .administration{
     background-color:#FFACD6;
     display: block;

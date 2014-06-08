@@ -141,26 +141,7 @@ html,body{
 .local-chapters > h1{
     color:white;
 }
-.joinchapter{
-    background-color:#57AB21;
-    display:block;
-    padding:10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.joinchapter > h1{
-    color:white;
-}
-.orstart{
-    background-color:#FFA319;
-    display:block;
-    padding:10px;
-    margin-top:10px;
-    margin-bottom:10px;
-}
-.orstart > h1{
-    color:white;
-}
+
 .administration{
     background-color:#FFACD6;
     display: block;
@@ -292,9 +273,12 @@ html,body{
 }
 .nav-pills > li.active > a {
     background-color: #3385AD;
-    color: #7DCBE5;
+    color: #cfdce3;
 }
 .nav-pills > li{
     border:1px solid black;
     border-bottom:0px;
+}
+.nav-pills > li > a{
+    color: #4a4a4a;
 }

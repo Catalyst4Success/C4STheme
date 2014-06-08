@@ -33,7 +33,7 @@
         </div>
 </div>
 <br><br><br><br><br>
-<div class="footer" style="position:absolute; bottom:0;">
+<div class="footer">
     <div class="row">
         <div class="col-md-4">
             <img src="files/logotransparent.png" width="25%"><br>
@@ -43,7 +43,7 @@
             <b>Contact Us</b><br>858-610-0232<br><u>info.catalyst4success.org</u>
         </div>
         <div class="col-md-1">
-            <img src="files/flask.png" width="75px">
+            <img src="files/flask.png" width="60%">
         </div>
     </div>
 </div>

@@ -26,63 +26,7 @@
         </div>
     </div>      
 </div>
-
-<div id="navbarfiller">
-    <div id="navbar" class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-nav">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-                <a href="index.html" class="navbar-brand">
-                    <img src="files/logotransparent.png" style="height: 45px;">
-                    <div style="margin-left:7px; display: inline;">Catalyst for Success</div>
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="collapse-nav">
-                <ul style="padding-left: 10px;" class="nav navbar-nav">
-                    <li class="active"><a href="index.html"><i class="fa fa-home"></i> HOME</a></li>
-                    <li id="about" class="dropdown hover-active-dropdown">
-                    <a class="dropdown-toggle" href="about.html">
-                        <i class="fa fa-question-circle"></i> ABOUT</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="about.html">Our Goal</a></li>
-                        <li><a href="members.html">Members</a></li>
-                        <li><a href="board.html">Advisory Board</a></li>
-                        <li><a href="videos.html">Videos</a></li>
-                        <li><a href="pressrelease.html">Press Releases</a></li>
-                    </ul>
-                    </li>
-                    <li class="hover-active"><a href="members.html"><i class="fa fa-users"></i> OUR TEAM</a></li>
-                    <li class="hover-active"><a href="board.html"><i class="fa fa-flask"></i> ADVISORY BOARD</a></li>
-
-                    <li class="dropdown hover-active-dropdown">
-                    <a class="dropdown-toggle" href="#">
-                        <i class="fa fa-book"></i> LOCAL CHAPTERS</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="http://wv.catalyst4success.org">Westview High School</a></li>
-                        </li>
-                    </ul>
-
-                    <li class="dropdown hover-active-dropdown">
-                    <a class="dropdown-toggle" href="signup.html">
-                        <i class="fa fa-envelope"></i> CONTACT US</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="signup.html">FAQ:</a></li>
-                        <li><a href="signup.html#admin">Administrators</a></li>
-                        <li><a href="signup.html#sponsors">Sponsors</a></li>
-                        <li><a href="signup.html#members">Prospective members</a></li></ul>
-                    </li>
-
-                    <li class="hover-active"><a href="donate.html"><i class="fa fa-gift"></i> DONATE</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+<?php include("navbar.php") ?>
 <div class="our-mission">
     <center><h1 style="display:inline-block;">Our Mission: </h1><h1 style="font-family: Lato; display:inline-block; color:black; padding-left:20px;"> to inspire</h1></center>
     <div class="row" style="padding-top: 20px; padding-bottom:20px;" >
@@ -100,7 +44,7 @@
             </ul>
         </div>
     </div>
-    <center><button type="button" class="btn btn-primary">Learn More</button></center>
+    <a href="about.php"><center><button type="button" class="btn btn-primary">Learn More</button></center></a>
 </div>
 <div class="quote">
     <h1><center>"I love science! I love Jason Ge for being an amazing CEO and bringing such exciting experiments into my life!"</center></h1>
@@ -123,7 +67,7 @@
                         <div class="col-md-4" style="border:2px solid;">
                             <img src="lol"  width="100%">
                         </div>
-                        <div id="latest-news-button"><button style="margin-top:5%" type="button" class="btn btn-success pull-right">Learn More</button></div>
+                        <div id="latest-news-button"><a href="pressrelease.php"><button style="margin-top:5%" type="button" class="btn btn-success pull-right">Learn More</button></a></div>
                     </div>
                 </div>
             </div>

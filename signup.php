@@ -14,64 +14,7 @@
 <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
-
-
-<div id="navbarfiller">
-    <div id="navbar" class="navbar navbar-fixed-top navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-nav">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="index.html" class="navbar-brand">
-                    <img src="files/logotransparent.png" style="height: 45px;">
-                    <div style="margin-left:7px; display: inline;">Catalyst for Success</div>
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="collapse-nav">
-                <ul style="padding-left: 10px;" class="nav navbar-nav">
-                    <li class="hover-active"><a href="index.html"><i class="fa fa-home"></i> HOME</a></li>
-                    <li id="about" class="dropdown hover-active-dropdown">
-                    <a class="dropdown-toggle" href="about.html">
-                        <i class="fa fa-question-circle"></i> ABOUT</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="about.html">Our Goal</a></li>
-                        <li><a href="members.html">Members</a></li>
-                        <li><a href="board.html">Advisory Board</a></li>
-                        <li><a href="videos.html">Videos</a></li>
-                        <li><a href="pressrelease.html">Press Releases</a></li>
-                    </ul>
-                    </li>
-                    <li><a href="members.html"><i class="fa fa-users"></i> OUR TEAM</a></li>
-                    <li class="hover-active"><a href="board.html"><i class="fa fa-flask"></i> ADVISORY BOARD</a></li>
-
-                    <li class="dropdown hover-active-dropdown">
-                    <a class="dropdown-toggle" href="#">
-                        <i class="fa fa-book"></i> LOCAL CHAPTERS</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="http://wv.catalyst4success.org">Westview High School</a></li>
-                        </li>
-                    </ul>
-
-                    <li class="dropdown active hover-active-dropdown">
-                    <a class="dropdown-toggle" href="signup.html">
-                        <i class="fa fa-envelope"></i> CONTACT US</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="signup.html">FAQ:</a></li>
-                        <li><a href="signup.html#admin">Administrators</a></li>
-                        <li><a href="signup.html#sponsors">Sponsors</a></li>
-                        <li><a href="signup.html#members">Prospective members</a></li></ul>
-                    </li>
-
-                    <li class="hover-active"><a href="donate.html"><i class="fa fa-gift"></i> DONATE</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+   <?php include("navbar.php") ?>
 <br>
 <div class="contactus">
     <center>
@@ -104,7 +47,7 @@
   <p>Follow the link at the top of the page to sign up for a show, or contact us by the listed phone and email. A different chapter will be assigned to your school depending on your location and availability.</p>
   <h2 id="sponsors">Sponsors</h2>
   <b>How can i donate right now?</b>
-  <p><a href="donate.html">Click here</a> to see payment options. We will graciously accept any financial contribution.</p>
+  <p><a href="donate.php">Click here</a> to see payment options. We will graciously accept any financial contribution.</p>
   <br>
   <b>Is Catalyst's program sustainable?</b>
   <p>Since our incorporation, we have modeled our organization with sustainability is mind. Investing heavily in research and development, seeking renewable funding sources, and operating through high school and university chapters that function with a business like culture of efficiency means that Catalyst has the ability to grow, advance, and adapt far into the future.</p>

@@ -26,12 +26,12 @@
     <div class="row" style="width:100%;">
         <div class="col-md-3 col-md-offset-1" style="padding-right:0px">
         <ul id="row" class="nav nav-pills nav-stacked">
-            <li class="active"><a href="#"><center>Westview High School</center></a></li>
-            <li><a href="#"><center>Del Norte High School</center></a></li>
-            <li><a href="#"><center>Rancho Bernardo High School</center></a></li>
-            <li><a href="#"><center>Francis Parker High School</center></a></li>
-            <li><a href="#"><center>Patrick Henry High School</center></a></li>
-            <li style="border-bottom:1px solid black;"><a href="#"><center>Upper Dublin High School</center></a></li>
+            <li class="active" id="wv" onclick="changeChapter(wv)"><a href="#"><center>Westview High School</center></a></li>
+            <li id="dn" onclick="changeChapter(dn)"><a href="#"><center>Del Norte High School</center></a></li>
+            <li id="rb" onclick="changeChapter(rb)"><a href="#"><center>Rancho Bernardo High School</center></a></li>
+            <li id="fp" onclick="changeChapter(fp)"><a href="#"><center>Francis Parker High School</center></a></li>
+            <li id="ph" onclick="changeChapter(ph)"><a href="#"><center>Patrick Henry High School</center></a></li>
+            <li id="ud" onclick="changeChapter(ud)"style="border-bottom:1px solid black;"><a href="#"><center>Upper Dublin High School</center></a></li>
         </ul>
         </div>
         <div class="col-md-7" id="map" style="border:1px solid black; border-left:0px; background-color:#7DCBE5 ">
@@ -102,6 +102,17 @@ with you to discuss your first steps.</p>
 
         });
 
+</script>
+<script>
+function changeChapter(chapter){
+    $("#dn").attr("class", " ");
+    $("#wv").attr("class", " ");
+    $("#rb").attr("class", " ");
+    $("#fp").attr("class", " ");
+    $("#ph").attr("class", " ");
+    $("#ud").attr("class", " ");
+    $(chapter).attr("class", "active");
+}
 </script>
 
 <script>

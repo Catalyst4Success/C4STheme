@@ -81,8 +81,34 @@
                 <div class="col-md-6">
                     <center><h1>Did you know...</h1></center>
                 </div>
-                <div class="col-md-6">
-                    <h4>script here</h4>
+                <div style="margin-top:60px;" class="col-md-6">
+                    <h4><?php
+                                $cache_file = 'files/cache.txt';
+                                $facts_file = 'files/facts.txt';
+                                $old_facts_file = 'files/oldfacts.txt';
+
+                                function read_and_delete_first_line($filename) {
+                                    $file = file($filename);
+                                    $output = $file[0];
+                                    unset($file[0]);
+                                    file_put_contents($filename, $file);
+                                    return $output;
+                                }
+
+                                if (file_exists($cache_file) && filemtime($cache_file) > time() - 86300) {
+                                    echo file_get_contents($cache_file);
+                                }
+
+                                else {
+                                    $content = read_and_delete_first_line($facts_file);
+                                    $today_content = file_get_contents($cache_file);
+                                    file_put_contents($old_facts_file, "\n" . "<br>" . $today_content, FILE_APPEND);
+                                    file_put_contents($cache_file, $content);
+                                    echo $content;
+                            } ?>
+</h4>
+<a href="facts.php"><center><button type="button" class="btn btn-danger">More Fun Facts</button></center></a>
+
                 </div>
             </div>
         </div>

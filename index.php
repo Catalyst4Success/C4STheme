@@ -58,15 +58,25 @@
                 </div>
                 <div class="col-md-9">
                     <div class="row">
-                        <div class="col-md-4" style="border:2px solid;">
-                            <img src="lol" width="100%">
+                        <div class="col-md-4">
+     <a href="press.php?id=11">                   
+     <img src="pressreleases/1.jpg" style="border:2px solid black;" height="424px" width="100%">
+     </a>
+<center><p>UC San Diego Chancellor Emerita Marye Anne Fox Joins Catalyst Advisory Board</p></center>
                         </div>
-                        <div class="col-md-4" style="border:2px solid;">
-                            <img src="lol" width="100%">
-                        </div>
-                        <div class="col-md-4" style="border:2px solid;">
-                            <img src="lol"  width="100%">
-                        </div>
+
+                        <div class="col-md-4">
+     <a href="press.php?id=10">                    
+    <img src="pressreleases/2.jpg" style="border:2px solid black;" height="424px" width="100%">
+</a>                        
+<center><p>Catalyst welcomes First County Official to Advisory Board</p></center>
+</div>
+                        <div class="col-md-4">
+<a href="press.php?id=9">
+    <img src="pressreleases/3.jpg"  style="border:2px solid black;" height="424px" width="100%">
+</a>
+<center><p>New Year, New Experiments, New Chapters, No Stopping</p></center>
+</div>
                         <div id="latest-news-button"><a href="pressrelease.php"><button style="margin-top:5%" type="button" class="btn btn-success pull-right">Learn More</button></a></div>
                     </div>
                 </div>

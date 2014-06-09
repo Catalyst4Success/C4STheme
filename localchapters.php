@@ -36,9 +36,9 @@
         </div>
         <div class="col-md-7" id="map" style="border:1px solid black; border-left:0px; background-color:#7DCBE5 ">
             <div class="col-md-6">
-                <img id="sd-map" src="files/C4S-SD-map.png">
+                <img id="sd-map" src="files/C4S-SD-map.png" style="max-width:100%">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" style="max-width:100%">
 <center>
 <br><br>
                 <p style="font-weight:bold" id="school-name">Westview High School</p>
@@ -132,32 +132,32 @@ function changeChapter(chapter){
    }
 if(chapter == "dn"){
         $("#school-name").html("Del Norte High School");
-        $("#school-address").html("13500 Camino Del Sur<br>San Diego, CA, 92129");
-        $("#school-website").html("http://wv.catalyst4success.org");
+        $("#school-address").html("16601 Nighthawk Ln<br>San Diego, CA, 92127");
+        $("#school-website").html("http://dn.catalyst4success.org");
         $("#school-contact").html("(858)212-7456<br>c4swestview@gmail.com");
    }
 if(chapter == "rb"){
         $("#school-name").html("Rancho Bernardo High School");
-        $("#school-address").html("13500 Camino Del Sur<br>San Diego, CA, 92129");
-        $("#school-website").html("http://wv.catalyst4success.org");
+        $("#school-address").html("13010 Paseo Lucido<br>San Diego, CA, 92128");
+        $("#school-website").html("http://rb.catalyst4success.org");
         $("#school-contact").html("(858)212-7456<br>c4swestview@gmail.com");
    }
 if(chapter == "fp"){
         $("#school-name").html("Francis Parker High School");
-        $("#school-address").html("13500 Camino Del Sur<br>San Diego, CA, 92129");
-        $("#school-website").html("http://wv.catalyst4success.org");
+        $("#school-address").html("6501 Linda Vista Rd<br>San Diego, CA, 92111");
+        $("#school-website").html("http://fp.catalyst4success.org");
         $("#school-contact").html("(858)212-7456<br>c4swestview@gmail.com");
    }
 if(chapter == "ph"){
         $("#school-name").html("Patrick Henry High School");
-        $("#school-address").html("13500 Camino Del Sur<br>San Diego, CA, 92129");
-        $("#school-website").html("http://wv.catalyst4success.org");
+        $("#school-address").html("6702 Wandermere Dr<br>San Diego, CA, 92120");
+        $("#school-website").html("http://ph.catalyst4success.org");
         $("#school-contact").html("(858)212-7456<br>c4swestview@gmail.com");
    }
 if(chapter == "ud"){
         $("#school-name").html("Upper Dublin High School");
-        $("#school-address").html("13500 Camino Del Sur<br>San Diego, CA, 92129");
-        $("#school-website").html("http://wv.catalyst4success.org");
+        $("#school-address").html("800 Loch Alsh Ave<br>Fort Washington, PA, 19034");
+        $("#school-website").html("http://ud.catalyst4success.org");
         $("#school-contact").html("(858)212-7456<br>c4swestview@gmail.com");
    }
 

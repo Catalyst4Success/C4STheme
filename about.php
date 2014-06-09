@@ -87,27 +87,27 @@
 <div class="row" style="padding-left: 25px; width:100%;">
     <div class="col-sm-2 col-sm-offset-2">
         <center>
-            <a href="#">
-                <img src="http://placehold.it/172x180" alt="...">
+            <a href="videos.php#balloon">
+                <img src="files/balloon.png" alt="...">
             </a>
             <p>Hydrogen Balloon</p>
         </center>
     </div>
     <div class="col-sm-2 col-sm-offset-1">
         <center>
-            <a href="#">
-                <img src="http://placehold.it/172x180" alt="...">
+            <a href="videos.php#CO2">
+                <img src="files/staircase.png" alt="...">
             </a>
-            <p>other experiment</p>
+            <p>CO2 Staircase</p>
         </center>
     </div>
 
     <div class="col-sm-2 col-sm-offset-1">
         <center>
-            <a href="#">
-                <img src="http://placehold.it/172x180" alt="...">
+            <a href="videos.php#flag">
+                <img src="files/flag.png" alt="...">
             </a>
-            <p>other experiment</p>
+            <p>American Flag</p>
         </center>
     </div>
 

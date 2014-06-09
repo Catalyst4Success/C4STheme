@@ -38,7 +38,39 @@
         </div>
     </div>
 </div>
-<br><br><br><br><br><br><br><br>
+<div class="row" style="width:100%">
+<br>
+   <center><p>Can't find a chapter close to you? <a href="contact.php">Contact us</a> about booking an event or start your own chapter!</p></center> 
+</div>
+<br><div class="join-chapter">
+<h2 style="color:white;"><center>Join a chapter!</center></h2>
+</div>
+<div class="container local-chapters-faq-1" style="width:70%">
+<br><p style="font-weight:bold">My school has a chapter, how do I join?</p><p>Follow the link to your chapter's website. There you can find the contact information of leaders who will be happy to welcome you to
+the Catalyst family.</p>
+<br>
+<p style="font-weight:bold">Should I join even if science isn't my 'thing'?</p><p>Yes, it doesn't take a genius. It takes a determined well rounded individual who is able to communicate effectively and respectfully. Our chapters also need artists, computer programmers, skilled writers, and graphic designers.</p>
+<br><br>
+</div>
+<div class="start-chapter">
+<h2 style="color:white;"><center>Or start a chapter!</center></h2>
+</div>
+<div class="container local-chapters-faq-2" style="width:70%">
+<br><p style="font-weight:bold">My school doesn't have a chapter, can I start one?</p><p>Yes, yes you can! Starting a Catalyst chapter is a bit more involved than starting a usual club, but then, Catalyst is anything but usual!</p>
+<br>
+<p style="font-weight:bold">My high school is in or near San Diego country: </p><p>The first step is to contact a representative from the organization. We will visit your school to speak with your administrators about
+the program. If everything checks out, we will help you complete your club application forms and select and train an interim leadership team to get the chapter off to a solid start.</p>
+<br>
+<p style="font-weight:bold">Anywhere else in the nation: </p><p>Starting a chapter begins with completing a pre-establishment checklist. Obtain the checklist by contacting the organization.</p>
+<br>
+<p style="font-weight:bold">My university is in or near San Diego county: </p><p>Before establishing yourself on campus, get together a group of interested individuals and contact our organization. We will meet
+with you to discuss your first steps.</p>
+<br><br>
+<center>
+<p style="color:#FFA319">I'm inquisitive, I have more questions!<br><br>Email us at info@catalyst4success.org with your inquiry.</p>
+</div>
+
+<br><br><br><br><br>
 <div class="footer">
     <div class="row">
         <div class="col-md-4">

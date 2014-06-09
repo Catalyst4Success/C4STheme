@@ -44,6 +44,27 @@ html,body{
     display: block;
     padding: 20px;
 }
+.join-chapter{
+    background-color:#57AB21;
+    display: block;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.start-chapter{
+    background-color:#FFA319;
+    display: block;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.local-chapters-faq-1 > p{
+    color:#57AB21;
+}
+.local-chapters-faq-2 > p{
+    color:#FFA319;
+}
+
 .quote h1{
     color:white;
 }

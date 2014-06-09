@@ -26,15 +26,27 @@
     <div class="row" style="width:100%;">
         <div class="col-md-3 col-md-offset-1" style="padding-right:0px">
         <ul id="row" class="nav nav-pills nav-stacked">
-            <li class="active" id="wv" onclick="changeChapter(wv)"><a href="#"><center>Westview High School</center></a></li>
-            <li id="dn" onclick="changeChapter(dn)"><a href="#"><center>Del Norte High School</center></a></li>
-            <li id="rb" onclick="changeChapter(rb)"><a href="#"><center>Rancho Bernardo High School</center></a></li>
-            <li id="fp" onclick="changeChapter(fp)"><a href="#"><center>Francis Parker High School</center></a></li>
-            <li id="ph" onclick="changeChapter(ph)"><a href="#"><center>Patrick Henry High School</center></a></li>
-            <li id="ud" onclick="changeChapter(ud)"style="border-bottom:1px solid black;"><a href="#"><center>Upper Dublin High School</center></a></li>
+            <li class="active" id="wv" onclick="changeChapter('wv')"><a href="#"><center>Westview High School</center></a></li>
+            <li id="dn" onclick="changeChapter('dn')"><a href="#"><center>Del Norte High School</center></a></li>
+            <li id="rb" onclick="changeChapter('rb')"><a href="#"><center>Rancho Bernardo High School</center></a></li>
+            <li id="fp" onclick="changeChapter('fp')"><a href="#"><center>Francis Parker High School</center></a></li>
+            <li id="ph" onclick="changeChapter('ph')"><a href="#"><center>Patrick Henry High School</center></a></li>
+            <li id="ud" onclick="changeChapter('ud')"style="border-bottom:1px solid black;"><a href="#"><center>Upper Dublin High School</center></a></li>
         </ul>
         </div>
         <div class="col-md-7" id="map" style="border:1px solid black; border-left:0px; background-color:#7DCBE5 ">
+            <div class="col-md-6">
+                <img id="sd-map" src="files/C4S-SD-map.png">
+            </div>
+            <div class="col-md-6">
+<center>
+<br><br>
+                <p style="font-weight:bold" id="school-name">Westview High School</p>
+                <p id="school-address">13500 Camino Del Sur<br>San Diego, CA, 92129</p>
+                <a id="school-website" href="http://wv.catalyst4success.org">http://wv.catalyst4success.org</a>
+                <p id="school-contact">(858)212-7456<br>c4swestview@gmail.com</p>
+</center>
+            </div>
         </div>
     </div>
 </div>
@@ -89,30 +101,67 @@ with you to discuss your first steps.</p>
 <script src="./Bootswatch  Default_files/bootstrap.min.js"></script>
 <script src="./Bootswatch  Default_files/bootswatch.js"></script>
 <script>
-    $(window).on("load", function(){
-        var rowheight = $("#row").innerHeight();
-        console.log("test");
-        $("#map").height(rowheight - 2);
-    });
+$(window).on("load", function(){
+    var rowheight = $("#row").innerHeight();
+    $("#map").height(rowheight - 2);
+    $("#sd-map").height(rowheight -2);
+});
 
-    $(window).on('resize', function() {
-        var rowheight = $("#row").innerHeight();
-        console.log("test");
-        $("#map").height(rowheight - 2);
-
-        });
+$(window).on('resize', function() {
+    var rowheight = $("#row").innerHeight();
+    console.log("test");
+    $("#map").height(rowheight - 2);
+    $("#sd-map").height(rowheight -2);
+});
 
 </script>
 <script>
 function changeChapter(chapter){
-    $("#dn").attr("class", " ");
     $("#wv").attr("class", " ");
+    $("#dn").attr("class", " ");
     $("#rb").attr("class", " ");
     $("#fp").attr("class", " ");
     $("#ph").attr("class", " ");
     $("#ud").attr("class", " ");
-    $(chapter).attr("class", "active");
-}
+    $("#" + chapter).attr("class", "active");
+    if(chapter == "wv"){
+        $("#school-name").html("Westview High School");
+        $("#school-address").html("13500 Camino Del Sur<br>San Diego, CA, 92129");
+        $("#school-website").html("http://wv.catalyst4success.org");
+        $("#school-contact").html("(858)212-7456<br>c4swestview@gmail.com");
+   }
+if(chapter == "dn"){
+        $("#school-name").html("Del Norte High School");
+        $("#school-address").html("13500 Camino Del Sur<br>San Diego, CA, 92129");
+        $("#school-website").html("http://wv.catalyst4success.org");
+        $("#school-contact").html("(858)212-7456<br>c4swestview@gmail.com");
+   }
+if(chapter == "rb"){
+        $("#school-name").html("Rancho Bernardo High School");
+        $("#school-address").html("13500 Camino Del Sur<br>San Diego, CA, 92129");
+        $("#school-website").html("http://wv.catalyst4success.org");
+        $("#school-contact").html("(858)212-7456<br>c4swestview@gmail.com");
+   }
+if(chapter == "fp"){
+        $("#school-name").html("Francis Parker High School");
+        $("#school-address").html("13500 Camino Del Sur<br>San Diego, CA, 92129");
+        $("#school-website").html("http://wv.catalyst4success.org");
+        $("#school-contact").html("(858)212-7456<br>c4swestview@gmail.com");
+   }
+if(chapter == "ph"){
+        $("#school-name").html("Patrick Henry High School");
+        $("#school-address").html("13500 Camino Del Sur<br>San Diego, CA, 92129");
+        $("#school-website").html("http://wv.catalyst4success.org");
+        $("#school-contact").html("(858)212-7456<br>c4swestview@gmail.com");
+   }
+if(chapter == "ud"){
+        $("#school-name").html("Upper Dublin High School");
+        $("#school-address").html("13500 Camino Del Sur<br>San Diego, CA, 92129");
+        $("#school-website").html("http://wv.catalyst4success.org");
+        $("#school-contact").html("(858)212-7456<br>c4swestview@gmail.com");
+   }
+
+    }
 </script>
 
 <script>
@@ -120,17 +169,17 @@ var width = $(window).width();
 var hoverover;
 $(document).ready( function(){
 
-        navbarCollapseCheck();
-        $(".hover-active-dropdown").hover(
-            function() { $(this).attr("class", "dropdown hover-active-dropdown active")},
-            function() { $(this).attr("class", "dropdown hover-active-dropdown")}
-            );
+    navbarCollapseCheck();
+    $(".hover-active-dropdown").hover(
+        function() { $(this).attr("class", "dropdown hover-active-dropdown active")},
+        function() { $(this).attr("class", "dropdown hover-active-dropdown")}
+    );
 
-        $(".hover-active").hover(
-            function() { $(this).attr("class", "hover-active active")},
-            function() { $(this).attr("class", "hover-active")}
-            );
-        });
+    $(".hover-active").hover(
+        function() { $(this).attr("class", "hover-active active")},
+        function() { $(this).attr("class", "hover-active")}
+    );
+});
 
 function navbarCollapseCheck(){
     var width = $(window).width();
@@ -146,8 +195,8 @@ function navbarCollapseCheck(){
 
 
 $(window).on('resize', function() {
-        navbarCollapseCheck();
-        });
+    navbarCollapseCheck();
+});
 
 </script>
 

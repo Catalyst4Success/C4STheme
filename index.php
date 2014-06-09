@@ -78,7 +78,7 @@
         </div>
         <div class="didyouknow">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <center><h1>Did you know...</h1></center>
                 </div>
                 <div style="margin-top:60px;" class="col-md-6">

@@ -68,7 +68,7 @@
     <div class="col-md-8 col-md-offset-2">
         <br>
         <p>Our local high school chapters are branches of the organization that allow us to reach out to a larger part of the community. We have San Diego chapters established at Westview High School, Rancho Bernardo High School, Poway High School, Patrick Henry High School, and Del Norte High School. And we are happy to welcome our newest chapter at Upper Dublin in Philadelphia, Pennsylvania!</p>
-        <center><p>For more information about individual chapters and instructions on how to start a new chapter, please visit our <a href="localchapters.html">Local Chapters</a> page.</p></center>
+        <center><p>For more information about individual chapters and instructions on how to start a new chapter, please visit our <a href="localchapters.php">Local Chapters</a> page.</p></center>
     </div>
 </div>
 <br><br>

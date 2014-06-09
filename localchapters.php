@@ -52,7 +52,7 @@
 </div>
 <div class="row" style="width:100%">
 <br>
-   <center><p>Can't find a chapter close to you? <a href="contact.php">Contact us</a> about booking an event or start your own chapter!</p></center> 
+   <center><p>Can't find a chapter close to you? <a href="signup.php">Contact us</a> about booking an event or start your own chapter!</p></center> 
 </div>
 <br><div class="join-chapter">
 <h2 style="color:white;"><center>Join a chapter!</center></h2>

@@ -60,20 +60,20 @@
                     <div class="row">
                         <div class="col-md-4">
      <a href="press.php?id=11">                   
-     <img src="pressreleases/1.jpg" style="border:2px solid black;" height="424px" width="100%">
+     <img src="pressreleases/1.jpg" style="border:2px solid black;" width="100%">
      </a>
 <center><p>UC San Diego Chancellor Emerita Marye Anne Fox Joins Catalyst Advisory Board</p></center>
                         </div>
 
                         <div class="col-md-4">
      <a href="press.php?id=10">                    
-    <img src="pressreleases/2.jpg" style="border:2px solid black;" height="424px" width="100%">
+    <img src="pressreleases/2.jpg" style="border:2px solid black;" width="100%">
 </a>                        
 <center><p>Catalyst welcomes First County Official to Advisory Board</p></center>
 </div>
                         <div class="col-md-4">
 <a href="press.php?id=9">
-    <img src="pressreleases/3.jpg"  style="border:2px solid black;" height="424px" width="100%">
+    <img src="pressreleases/3.jpg"  style="border:2px solid black;" width="100%">
 </a>
 <center><p>New Year, New Experiments, New Chapters, No Stopping</p></center>
 </div>
@@ -84,7 +84,7 @@
         </div>
         <div class="map" id="map">
             <img id="map-image" src="files/catamap.jpg" style="visibility: hidden;" width="100%">
-            <div id="map-button"><button type="button" class="btn btn-danger">More Ways to Get Involved</button></div>
+            <div id="map-button"><a href="localchapters.php"><button type="button" class="btn btn-danger">More Ways to Get Involved</button></a></div>
         </div>
         <div class="didyouknow">
             <div class="row">

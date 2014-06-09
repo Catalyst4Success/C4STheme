@@ -29,9 +29,11 @@
 <div class="our-programs">
     <h1><center>OUR PROGRAMS</center></h1>
 </div>
+    <center>
+    <img style="width:49%;" src="files/about-show.jpg">
+    <img style="width:49%;" src="files/about-handson.jpg">
+    </center>
 <div class="row" style="padding-left: 25px; width:100%;">
-
-
     <div class="col-md-6 hands-on">
         <center>
             <h2 style="color:#FFA319">The Magic Show</h2>
@@ -140,27 +142,27 @@
 <script>
 
 $(document).ready( function(){
-        var welctop = $("#welcome").offset().top;
-        var welcbottom = welctop + $("#welcome").height();
-        $(window).scroll(function(){
-            var top = $(window).scrollTop();
-            var bottom = top + $(window).height();
-            if(top > welcbottom || $(window).width() < 767){
+    var welctop = $("#welcome").offset().top;
+    var welcbottom = welctop + $("#welcome").height();
+    $(window).scroll(function(){
+        var top = $(window).scrollTop();
+        var bottom = top + $(window).height();
+        if(top > welcbottom || $(window).width() < 767){
             $("#navbar").prop('class', 'navbar navbar-default navbar-fixed-top');
-            }
-            else{
+        }
+        else{
             $("#navbar").prop('class', 'navbar navbar-default');
-            }
-            });
-        });
+        }
+    });
+});
 </script>
 <script>
 function goToByScroll(id){
     // Scroll
     $('html,body').animate({
-scrollTop: $("#"+id).offset().top},
-'slow');
-    // Scroll
+        scrollTop: $("#"+id).offset().top},
+            'slow');
+        // Scroll
 }
 
 </script>
@@ -170,17 +172,17 @@ var width = $(window).width();
 var hoverover;
 $(document).ready( function(){
 
-        navbarCollapseCheck();
-        $(".hover-active-dropdown").hover(
-            function() { $(this).attr("class", "dropdown hover-active-dropdown active")},
-            function() { $(this).attr("class", "dropdown hover-active-dropdown")}
-            );
+    navbarCollapseCheck();
+    $(".hover-active-dropdown").hover(
+        function() { $(this).attr("class", "dropdown hover-active-dropdown active")},
+        function() { $(this).attr("class", "dropdown hover-active-dropdown")}
+    );
 
-        $(".hover-active").hover(
-            function() { $(this).attr("class", "hover-active active")},
-            function() { $(this).attr("class", "hover-active")}
-            );
-        });
+    $(".hover-active").hover(
+        function() { $(this).attr("class", "hover-active active")},
+        function() { $(this).attr("class", "hover-active")}
+    );
+});
 
 function navbarCollapseCheck(){
     var width = $(window).width();
@@ -196,8 +198,8 @@ function navbarCollapseCheck(){
 
 
 $(window).on('resize', function() {
-        navbarCollapseCheck();
-        });
+    navbarCollapseCheck();
+});
 
 </script>
 

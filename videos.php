@@ -21,12 +21,12 @@
         <h1 style="color:#FFA319">Show Experiments</h1>
     </center>
 
-    <ul id="mainnav" class="nav nav-tabs">
-        <li class="active"><a href="#balloon" data-toggle="tab">Exploding Balloon</a></li>
-        <li class=""><a href="#flag" data-toggle="tab">American Flag</a></li>
-        <li class=""><a href="#BvG" data-toggle="tab">Black vs Gold</a></li>
-        <li class=""><a href="#CO2" data-toggle="tab">CO2 Staircase</a></li>
-        <li class=""><a href="#combustion" data-toggle="tab">Combustion Reaction</a></li>
+    <ul id="mainnav" style="text-align:center;" class="nav nav-tabs">
+        <li style="float:none; display:inline-block;" class="active"><a href="#balloon" data-toggle="tab">Exploding Balloon</a></li>
+        <li style="float:none; display:inline-block;" class=""><a href="#flag" data-toggle="tab">American Flag</a></li>
+        <li style="float:none; display:inline-block;" class=""><a href="#BvG" data-toggle="tab">Black vs Gold</a></li>
+        <li style="float:none; display:inline-block;" class=""><a href="#CO2" data-toggle="tab">CO2 Staircase</a></li>
+        <li style="float:none; display:inline-block;" class=""><a href="#combustion" data-toggle="tab">Combustion Reaction</a></li>
     </ul>
     <br>
     <div class="tab-content">
@@ -58,24 +58,8 @@
     </div> <!--End all tab content-->
 </div>
 <br><br><br><br><br>
-<div class="footer">
-    <div class="row">
-        <div class="col-md-4">
-            <img src="files/logotransparent.png" width="25%"><br>
-            <h3 style="font-family:Lato">Catalyst for Success &copy; 2014</h3>
-        </div>
-        <div class="col-md-1 col-md-offset-6" style="padding-top:2%">
-            <b>Contact Us</b><br>858-610-0232<br><u>info.catalyst4success.org</u>
-        </div>
-        <div class="col-md-1">
-            <img src="files/flask.png" width="60%">
-        </div>
-    </div>
-</div>
-<script src="./Bootswatch  Default_files/jquery-1.10.2.min.js"></script>
-<script src="./Bootswatch  Default_files/bootstrap.min.js"></script>
-<script src="./Bootswatch  Default_files/bootswatch.js"></script>
-<script>
+   <?php include("footer.php") ?>
+
 
 $(document).ready( function(){
         var welctop = $("#welcome").offset().top;

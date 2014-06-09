@@ -93,11 +93,11 @@ html,body{
     background-color: #FF6699;
     display: block;
     overflow:hidden;
-    height:200px;
+    padding:30px;
 }
 .didyouknow h1{
     color:white;
-    padding-top:60px;
+    
 }
 .operations{
     background-color:#FFB56C;
@@ -136,7 +136,7 @@ html,body{
     display: block;
     padding:10px;
     margin-top: 10px;
-    margin-bottom: 10px;
+   
 }
 .our-programs > h1{
     color:white;

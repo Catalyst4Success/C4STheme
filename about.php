@@ -19,7 +19,7 @@
 <div class="about">
     <center>
         <h1 style="color:#9ACD32">About Catalyst for Success</h1>
-        <p> We are a non-profit organization that blah blah STEM education blah blah</p>
+        <p> Inspiring a new generation of scientists</p>
         <a href="https://www.youtube.com/watch?v=3wbIP_jWF0s">
             <img src="files/mission.jpg" style="width:20%; min-width:250px;"><br><br></a>
     </center>
@@ -30,8 +30,8 @@
     <h1><center>OUR PROGRAMS</center></h1>
 </div>
     <center>
-    <img style="width:49%;" src="files/about-show.jpg">
-    <img style="width:49%;" src="files/about-handson.jpg">
+    <img style="width:49.8%;" src="files/about-show.jpg">
+    <img style="width:49.8%;" src="files/about-handson.jpg">
     </center>
 <div class="row" style="padding-left: 25px; width:100%;">
     <div class="col-md-6 hands-on">
@@ -43,7 +43,7 @@
     <div class="col-md-6 hands-on">
         <center>
             <h2 style="color:#9ACD32">Hands-On Activities</h2>
-            <p style="color:#9ACD32"> The magic shows are a wonderful way of getting students interested in science. But we didn't want to stop at interest. We want to provide a way for students to engage with science in a very interactive way. Thats why we also provide hands-on activities for students where they get the opportunity to experiment and test out their passion for science. Since starting this component of our program in mid-March, we have already reached out to nearly 30 classrooms with our hands on activities.
+            <p style="color:#9ACD32"> The magic shows are a wonderful way of getting students interested in science. But we didn't want to stop at interest. We want to provide a way for students to engage with science in a very interactive way. Thats why we also provide hands-on activities for students where they get the opportunity to experiment and test out their passion for science. Since starting this component of our program in mid-March, we have already reached out to nearly 100 classrooms with our hands on activities.
         </center>
     </div>
 
@@ -51,9 +51,9 @@
         <div class="col-md-6 col-md-offset-3">
             <center>
                 <h2 style="color:#800080">Since February 2013 we have...</h2>
-                <p style="color:#800080"> Performed over 200 shows for over 20,000 students from in the Poway, San Diego, Chula Vista, Del Mar, Jamul, and Oceanside districts.</p>
+                <p style="color:#800080"> Performed over 60 shows for over 20,000 students from in the Poway, San Diego, Chula Vista, Del Mar, Jamul, and Oceanside districts.</p>
                 <p style="color:#800080"> Conducted hands-on science labs with dozens of classrooms</p>
-                <p> Started 5 local high school chapters in San Diego and one chapter in Philadelphia, Pennsylvania.</p>
+                <p style="color:#800080"> Started 5 local high school chapters in San Diego and one chapter in Philadelphia, Pennsylvania.</p>
             </center>
         </div>
     </div>
@@ -122,24 +122,7 @@
 
 
 <br><br><br><br><br>
-<div class="footer">
-    <div class="row">
-        <div class="col-md-4">
-            <img src="files/logotransparent.png" width="25%"><br>
-            <h3 style="font-family:Lato">Catalyst for Success &copy; 2014</h3>
-        </div>
-        <div class="col-md-1 col-md-offset-6" style="padding-top:2%">
-            <b>Contact Us</b><br>858-610-0232<br><u>info.catalyst4success.org</u>
-        </div>
-        <div class="col-md-1">
-            <img src="files/flask.png" width="60%">
-        </div>
-    </div>
-</div>
-<script src="./Bootswatch  Default_files/jquery-1.10.2.min.js"></script>
-<script src="./Bootswatch  Default_files/bootstrap.min.js"></script>
-<script src="./Bootswatch  Default_files/bootswatch.js"></script>
-<script>
+   <?php include("footer.php") ?>
 
 $(document).ready( function(){
     var welctop = $("#welcome").offset().top;

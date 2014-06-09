@@ -22,9 +22,9 @@
         <p>Find your nearest Catalyst chapter to book an event or to get involved!</p>
     </center><br>
 </div>
-<div class="container hidden-xs hidden-md" style="width:70%">
+<div class="container hidden-xs hidden-sm hidden-md" style="width:70%">
     <div class="row" style="width:100%;">
-        <div class="col-md-3 col-md-offset-1" style="padding-right:0px">
+        <div class="col-md-4 col-md-offset-1" style="padding-right:0px">
         <ul id="row" class="nav nav-pills nav-stacked">
             <li class="active" id="wv" onclick="changeChapter('wv')"><a href="#"><center>Westview High School</center></a></li>
             <li id="dn" onclick="changeChapter('dn')"><a href="#"><center>Del Norte High School</center></a></li>
@@ -83,24 +83,8 @@ with you to discuss your first steps.</p>
 </div>
 
 <br><br><br><br><br>
-<div class="footer">
-    <div class="row">
-        <div class="col-md-4">
-            <img src="files/logotransparent.png" width="25%"><br>
-            <h3 style="font-family:Lato">Catalyst for Success &copy; 2014</h3>
-        </div>
-        <div class="col-md-1 col-md-offset-6" style="padding-top:2%">
-            <b>Contact Us</b><br>858-610-0232<br><u>info.catalyst4success.org</u>
-        </div>
-        <div class="col-md-1">
-            <img src="files/flask.png" width="60%">
-        </div>
-    </div>
-</div>
-<script src="./Bootswatch  Default_files/jquery-1.10.2.min.js"></script>
-<script src="./Bootswatch  Default_files/bootstrap.min.js"></script>
-<script src="./Bootswatch  Default_files/bootswatch.js"></script>
-<script>
+   <?php include("footer.php") ?>
+
 $(window).on("load", function(){
     var rowheight = $("#row").innerHeight();
     $("#map").height(rowheight - 2);

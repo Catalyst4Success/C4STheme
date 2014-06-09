@@ -47,8 +47,8 @@
     <a href="about.php"><center><button type="button" class="btn btn-primary">Learn More</button></center></a>
 </div>
 <div class="quote">
-    <h1><center>"I love science! I love Jason Ge for being an amazing CEO and bringing such exciting experiments into my life!"</center></h1>
-    <h2 style="padding-left:50%;">-Vyha Do, Grade 12, Westview High School<h2>
+    <h1><center>"For all I know we may have the next Einstein sitting in one of these 1100 kids, you have to open the resources to, tap into what they have, and see what you get."</center></h1>
+    <h2 style="padding-left:50%;">-De Passé Feaster<h2>
         </div>
         <div class="latest-news">
             <div class="row" style="padding-top:30px;">
@@ -91,7 +91,7 @@
                 <div class="col-md-4">
                     <center><h1>Did you know...</h1></center>
                 </div>
-                <div style="margin-top:60px;" class="col-md-6">
+                <div class="col-md-6">
                     <h4><?php
                                 $cache_file = 'files/cache.txt';
                                 $facts_file = 'files/facts.txt';
@@ -122,24 +122,8 @@
                 </div>
             </div>
         </div>
-        <div class="footer">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="files/logotransparent.png" width="25%"><br>
-                    <h3 style="font-family:Lato">Catalyst for Success &copy; 2014</h3>
-                </div>
-                <div class="col-md-1 col-md-offset-6" style="padding-top:2%">
-                    <b>Contact Us</b><br>858-610-0232<br><u>info.catalyst4success.org</u>
-                </div>
-                <div class="col-md-1">
-                    <img src="files/flask.png" width="60%">
-                </div>
-            </div>
-        </div>
-        <script src="./Bootswatch  Default_files/jquery-1.10.2.min.js"></script>
-        <script src="./Bootswatch  Default_files/bootstrap.min.js"></script>
-        <script src="./Bootswatch  Default_files/bootswatch.js"></script>
-        <script>
+        <?php include("footer.php") ?>
+
 
 $(document).ready( function(){
         var welctop = $("#welcome").offset().top;

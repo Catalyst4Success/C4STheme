@@ -15,6 +15,7 @@
 </head>
 <body>
    <?php include("navbar.php") ?>
+<br>
 <div>
 <h1 style="color:#56C5C5;"><center>Advisory Board</center></h1>
 </div>
@@ -55,24 +56,7 @@
 </div>
 *Honorary member
 
-        <div class="footer">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="files/logotransparent.png" width="25%"><br>
-                    <h3 style="font-family:Lato">Catalyst for Success &copy; 2014</h3>
-                </div>
-                <div class="col-md-1 col-md-offset-6" style="padding-top:2%">
-                    <b>Contact Us</b><br>858-610-0232<br><u>info.catalyst4success.org</u>
-                </div>
-                <div class="col-md-1">
-                    <img src="files/flask.png" width="60%">
-                </div>
-            </div>
-        </div>
-        <script src="./Bootswatch  Default_files/jquery-1.10.2.min.js"></script>
-        <script src="./Bootswatch  Default_files/bootstrap.min.js"></script>
-        <script src="./Bootswatch  Default_files/bootswatch.js"></script>
-        <script>
+       <?php include("footer.php") ?>
 
 $(document).ready( function(){
         var welctop = $("#welcome").offset().top;

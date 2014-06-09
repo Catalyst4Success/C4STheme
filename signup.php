@@ -27,7 +27,9 @@
 	<p><i class="fa fa-lg fa-envelope-o"></i> info@catalyst4success.org</p>
       </div>
       <div class="col-md-1 col-md-offset-2">
+<a href="https://docs.google.com/forms/d/1eTPLTY2XiXQhbc1JcbVbGomzWofEeccZm9gt6ZihvuY/viewform">
 	<button type="button" class="btn btn-success">Sign up for an event!</button>
+</a>
       </div>
     </div>
 </div>

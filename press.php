@@ -27,8 +27,8 @@
    }
 ?>
 </div>
-<br><br><br><br><br>
-<div class="footer" style="position:absolute; bottom:0;">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="footer">
     <div class="row">
         <div class="col-md-4">
             <img src="files/logotransparent.png" width="25%"><br>

@@ -37,7 +37,7 @@
     <div class="col-md-6 hands-on">
         <center>
             <h2 style="color:#FFA319">The Magic Show</h2>
-            <p style="color:#FFA319">The first component of our program focuses around a chemistry magic show that consists of many cool demonstrations that present science in a fun and engaging way, not just a "textbook" subject. Since beginning this program in February 2013, we have already reached over 18,000 students through our magic shows.</p>
+            <p style="color:#FFA319">The first component of our program focuses around a chemistry magic show that consists of many cool demonstrations that present science in a fun and engaging way, not just a "textbook" subject. Since beginning this program in February 2013, we have already reached over 20,000 students through our magic shows.</p>
         </div>
     </center>
     <div class="col-md-6 hands-on">
@@ -51,7 +51,7 @@
         <div class="col-md-6 col-md-offset-3">
             <center>
                 <h2 style="color:#800080">Since February 2013 we have...</h2>
-                <p style="color:#800080"> Performed ___ shows for over 17,000 students from in the Poway, San Diego, Chula Vista, Del Mar, Jamul, and Oceanside districts.</p>
+                <p style="color:#800080"> Performed over 200 shows for over 20,000 students from in the Poway, San Diego, Chula Vista, Del Mar, Jamul, and Oceanside districts.</p>
                 <p style="color:#800080"> Conducted hands-on science labs with dozens of classrooms</p>
                 <p> Started 5 local high school chapters in San Diego and one chapter in Philadelphia, Pennsylvania.</p>
             </center>

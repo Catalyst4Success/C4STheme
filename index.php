@@ -38,7 +38,7 @@
             <p>
             <h3 style="color:#FA8072">Since February 2013, we have...</h3>
             <ul>
-                <li>Performed for over 17,000 students from schools in the Poway, San Diego, Chula Vista, Del Mar, Jamul, and Oceanside Districts</li> 
+                <li>Performed for over 20,000 students from schools in the Poway, San Diego, Chula Vista, Del Mar, Jamul, and Oceanside Districts</li> 
                 <li>Conducted hands-on science labs with dozens of classrooms</li>
                 </p>
             </ul>
